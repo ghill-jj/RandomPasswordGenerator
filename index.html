@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestingJavaScript</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!--
+    <h1 id="heading">Hello World</h1>
+    <p id="para">This is para</p>
+    -->
+    <div id="container">
+        <h1>Random Password:</h1>
+        <h3>To be included</h3><br>
+        <input type="radio" id="lowerCaseChars">
+        <label for="lowerCaseChars">lowerAlbhabets</label><br><br>
+        <input type="radio" id="upperCaseChars">
+        <label for="upperCaseChars">CapsAlbhabets</label><br><br>
+        <input type="radio" id="numbers">
+        <label for="numbers">Number</label><br><br>
+        <input type="radio" id="splChars">
+        <label for="splChars">SpecialCharacters</label><br><br>
+
+        <input type="number" value="0" name="pwdLength" id="pwdLength">
+        <button type="submit" onclick="randomPasswordGenerator()">Submit</button>
+        <p id="result"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
